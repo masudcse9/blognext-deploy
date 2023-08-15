@@ -1,0 +1,22 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Thinking in next js",
+            "content": "Instead of rendering your whole application client-side or whole in server-side. Go for a better combination based on components purpose.",
+            "date": "15/08/2023"
+        },
+        {
+            "id": 2,
+            "title": "Server Component Nesting",
+            "content": "Server Components can be nested within other Server Components. Server Components can contain Client Components, but these Client Components would be re hydrated on the client side after the initial render.Server Components can also contain regular HTML and other content.",
+            "date": "02/08/2023"
+        },
+        {
+            "id": 3,
+            "title": "Client Component Nesting",
+            "content": "Client Components can be nested within other Client Components. Client Components can contain Server Components, but the server-rendered output of these components would be 'hydrated' on the client side, meaning the JavaScript code would take over and make them interactive",
+            "date": "03/08/2023"
+        }
+    ]
+}
